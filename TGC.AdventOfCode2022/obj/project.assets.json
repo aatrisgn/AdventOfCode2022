@@ -9,10 +9,14 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -21,10 +25,14 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -33,88 +41,17 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "TGC.AdventOfCode2022.01/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "TGC.AdventOfCode2022.Abstractions": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TGC.AdventOfCode2022.01.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TGC.AdventOfCode2022.01.dll": {}
-        }
-      },
-      "TGC.AdventOfCode2022.02/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "TGC.AdventOfCode2022.Abstractions": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TGC.AdventOfCode2022.02.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TGC.AdventOfCode2022.02.dll": {}
-        }
-      },
-      "TGC.AdventOfCode2022.03/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "TGC.AdventOfCode2022.Abstractions": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TGC.AdventOfCode2022.03.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TGC.AdventOfCode2022.03.dll": {}
-        }
-      },
-      "TGC.AdventOfCode2022.04/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "TGC.AdventOfCode2022.Abstractions": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TGC.AdventOfCode2022.04.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TGC.AdventOfCode2022.04.dll": {}
-        }
-      },
-      "TGC.AdventOfCode2022.05/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "TGC.AdventOfCode2022.Abstractions": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/TGC.AdventOfCode2022.05.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TGC.AdventOfCode2022.05.dll": {}
-        }
-      },
-      "TGC.AdventOfCode2022.Abstractions/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/TGC.AdventOfCode2022.Abstractions.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TGC.AdventOfCode2022.Abstractions.dll": {}
         }
       }
     }
@@ -194,74 +131,28 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "TGC.AdventOfCode2022.01/1.0.0": {
-      "type": "project",
-      "path": "../TGC.AdventOfCode2022.01/TGC.AdventOfCode2022.01.csproj",
-      "msbuildProject": "../TGC.AdventOfCode2022.01/TGC.AdventOfCode2022.01.csproj"
-    },
-    "TGC.AdventOfCode2022.02/1.0.0": {
-      "type": "project",
-      "path": "../TGC.AdventOfCode2022.02/TGC.AdventOfCode2022.02.csproj",
-      "msbuildProject": "../TGC.AdventOfCode2022.02/TGC.AdventOfCode2022.02.csproj"
-    },
-    "TGC.AdventOfCode2022.03/1.0.0": {
-      "type": "project",
-      "path": "../TGC.AdventOfCode2022.03/TGC.AdventOfCode2022.03.csproj",
-      "msbuildProject": "../TGC.AdventOfCode2022.03/TGC.AdventOfCode2022.03.csproj"
-    },
-    "TGC.AdventOfCode2022.04/1.0.0": {
-      "type": "project",
-      "path": "../TGC.AdventOfCode2022.04/TGC.AdventOfCode2022.04.csproj",
-      "msbuildProject": "../TGC.AdventOfCode2022.04/TGC.AdventOfCode2022.04.csproj"
-    },
-    "TGC.AdventOfCode2022.05/1.0.0": {
-      "type": "project",
-      "path": "../TGC.AdventOfCode2022.05/TGC.AdventOfCode2022.05.csproj",
-      "msbuildProject": "../TGC.AdventOfCode2022.05/TGC.AdventOfCode2022.05.csproj"
-    },
-    "TGC.AdventOfCode2022.Abstractions/1.0.0": {
-      "type": "project",
-      "path": "../TGC.AdventOfCode2022.Abstractions/TGC.AdventOfCode2022.Abstractions.csproj",
-      "msbuildProject": "../TGC.AdventOfCode2022.Abstractions/TGC.AdventOfCode2022.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Extensions.DependencyInjection >= 6.0.1",
-      "TGC.AdventOfCode2022.01 >= 1.0.0",
-      "TGC.AdventOfCode2022.02 >= 1.0.0",
-      "TGC.AdventOfCode2022.03 >= 1.0.0",
-      "TGC.AdventOfCode2022.04 >= 1.0.0",
-      "TGC.AdventOfCode2022.05 >= 1.0.0",
-      "TGC.AdventOfCode2022.Abstractions >= 1.0.0"
+      "Microsoft.Extensions.DependencyInjection >= 6.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\asger\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\aat\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.Runner.csproj",
+      "projectUniqueName": "C:\\Personal\\AdventOfCode2022\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.Runner.csproj",
       "projectName": "TGC.AdventOfCode2022.Runner",
-      "projectPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.Runner.csproj",
-      "packagesPath": "C:\\Users\\asger\\.nuget\\packages\\",
-      "outputPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022\\obj\\",
+      "projectPath": "C:\\Personal\\AdventOfCode2022\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.Runner.csproj",
+      "packagesPath": "C:\\Users\\aat\\.nuget\\packages\\",
+      "outputPath": "C:\\Personal\\AdventOfCode2022\\TGC.AdventOfCode2022\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\asger\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\aat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -273,26 +164,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.01\\TGC.AdventOfCode2022.01.csproj": {
-              "projectPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.01\\TGC.AdventOfCode2022.01.csproj"
-            },
-            "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.02\\TGC.AdventOfCode2022.02.csproj": {
-              "projectPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.02\\TGC.AdventOfCode2022.02.csproj"
-            },
-            "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.03\\TGC.AdventOfCode2022.03.csproj": {
-              "projectPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.03\\TGC.AdventOfCode2022.03.csproj"
-            },
-            "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.04\\TGC.AdventOfCode2022.04.csproj": {
-              "projectPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.04\\TGC.AdventOfCode2022.04.csproj"
-            },
-            "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.05\\TGC.AdventOfCode2022.05.csproj": {
-              "projectPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.05\\TGC.AdventOfCode2022.05.csproj"
-            },
-            "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.Abstractions\\TGC.AdventOfCode2022.Abstractions.csproj": {
-              "projectPath": "D:\\Repositories\\TGC.AdventOfCode2022\\TGC.AdventOfCode2022.Abstractions\\TGC.AdventOfCode2022.Abstractions.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -316,7 +188,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -325,7 +198,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

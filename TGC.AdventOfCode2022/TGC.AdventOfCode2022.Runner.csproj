@@ -12,12 +12,21 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TGC.AdventOfCode2022.01\TGC.AdventOfCode2022.01.csproj" />
-    <ProjectReference Include="..\TGC.AdventOfCode2022.02\TGC.AdventOfCode2022.02.csproj" />
-    <ProjectReference Include="..\TGC.AdventOfCode2022.03\TGC.AdventOfCode2022.03.csproj" />
-    <ProjectReference Include="..\TGC.AdventOfCode2022.04\TGC.AdventOfCode2022.04.csproj" />
-    <ProjectReference Include="..\TGC.AdventOfCode2022.05\TGC.AdventOfCode2022.05.csproj" />
-    <ProjectReference Include="..\TGC.AdventOfCode2022.Abstractions\TGC.AdventOfCode2022.Abstractions.csproj" />
+    <None Update="DataFiles\Input01.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DataFiles\input02.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DataFiles\Input03.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="DataFiles\Input04.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="DataFiles\Input05.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

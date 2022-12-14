@@ -1,11 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.Extensions.DependencyInjection;
-using TGC.AdventOfCode2022._01;
-using TGC.AdventOfCode2022._02;
-using TGC.AdventOfCode2022._03;
-using TGC.AdventOfCode2022._04;
-using TGC.AdventOfCode2022._05;
 using TGC.AdventOfCode2022.Abstractions;
+using TGC.AdventOfCode2022.Runner.Runners;
 
 Console.WriteLine("Please enter advent to run (1-24)");
 

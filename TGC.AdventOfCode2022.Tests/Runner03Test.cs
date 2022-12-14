@@ -1,5 +1,5 @@
 using FluentAssertions;
-using TGC.AdventOfCode2022._03;
+using TGC.AdventOfCode2022.Runner.Runners;
 using Xunit;
 
 namespace TGC.AdventOfCode2022.Tests

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TGC.AdventOfCode2022._04;
+using TGC.AdventOfCode2022.Runner.Runners;
 using Xunit;
 
 namespace TGC.AdventOfCode2022.Tests

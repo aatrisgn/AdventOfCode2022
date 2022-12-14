@@ -15,7 +15,7 @@ namespace TGC.AdventOfCode2022.Tests
         public void DuplicateSectionCount_Is2()
         {
             var runner = new Runner04();
-            var result = runner.firstTask("TestInput04.txt").Result;
+            var result = runner.firstTask("TestInputFiles/04/TestInput04.txt").Result;
             result.Should().Be(2);
         }
 
@@ -23,7 +23,7 @@ namespace TGC.AdventOfCode2022.Tests
         public void DuplicateSectionCount_Is4()
         {
             var runner = new Runner04();
-            var result = runner.secondTask("TestInput04.txt").Result;
+            var result = runner.secondTask("TestInputFiles/04/TestInput04.txt").Result;
             result.Should().Be(4);
         }
 

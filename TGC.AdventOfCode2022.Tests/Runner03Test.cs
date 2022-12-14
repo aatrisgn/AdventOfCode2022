@@ -10,7 +10,7 @@ namespace TGC.AdventOfCode2022.Tests
         public void BadgeGrouping_is70()
         {
             var runner = new Runner03();
-            var result = runner.secondTask("TestInput03.txt").Result;
+            var result = runner.secondTask("TestInputFiles/03/TestInput03.txt").Result;
             result.Should().Be(70);
         }
     }

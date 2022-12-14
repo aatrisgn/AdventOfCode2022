@@ -29,7 +29,7 @@
     <None Update="TestInputFiles\03\TestInput03.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="TestInputFiles\05\TestInput04.txt">
+    <None Update="TestInputFiles\04\TestInput04.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="TestInputFiles\06\TestInput06-2.txt">

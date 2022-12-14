@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TGC.AdventOfCode2022.01\TGC.AdventOfCode2022.01.csproj" />
+    <ProjectReference Include="..\TGC.AdventOfCode2022.02\TGC.AdventOfCode2022.02.csproj" />
+    <ProjectReference Include="..\TGC.AdventOfCode2022.03\TGC.AdventOfCode2022.03.csproj" />
+    <ProjectReference Include="..\TGC.AdventOfCode2022.04\TGC.AdventOfCode2022.04.csproj" />
+    <ProjectReference Include="..\TGC.AdventOfCode2022.05\TGC.AdventOfCode2022.05.csproj" />
+    <ProjectReference Include="..\TGC.AdventOfCode2022.Abstractions\TGC.AdventOfCode2022.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

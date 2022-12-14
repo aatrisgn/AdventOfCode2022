@@ -11,6 +11,7 @@ serviceCollection.AddScoped<IRunner, Runner02>();
 serviceCollection.AddScoped<IRunner, Runner03>();
 serviceCollection.AddScoped<IRunner, Runner04>();
 serviceCollection.AddScoped<IRunner, Runner05>();
+serviceCollection.AddScoped<IRunner, Runner06>();
 
 
 var serviceProvider = serviceCollection.BuildServiceProvider();

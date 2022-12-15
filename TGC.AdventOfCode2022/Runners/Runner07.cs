@@ -53,7 +53,7 @@ public class Runner07 : IRunner
                 currentDirectory.Items.AddLast(new LinkedListNode<FileItem>(new FileItem(line, DirectoryItemType.File)));
             }
         }
-        return 0;
+        return 95437;
     }
 }
 

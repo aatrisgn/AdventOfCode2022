@@ -10,7 +10,7 @@ public class Runner07Tests
     public void FirstTask_WithTestData_Return95437()
     {
         var runner = new Runner07();
-        var result = runner.FirstTask("TestInputFiles/07/TestInput-1.txt");
+        var result = runner.FirstTask("TestInputFiles/07/TestInput-1.txt").Result;
         result.Should().Be(95437);
     }
 }
